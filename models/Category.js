@@ -31,12 +31,12 @@ module.exports.create = (req, res) => {
         });
     }
   
-    // Create a product
+    // Create a category
     const category = new Category({
         categoryName:req.body.categoryname
            });
   console.log(category)
-    // Save Note in the database
+    // Save category in the database
     category.save()
     .then(data => {
         res.send(data);
