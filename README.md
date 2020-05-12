@@ -1,6 +1,6 @@
 Products && Categories REST API'S
 
-=========================================================================================
+
 #Running app in local
 =========================================================================================
 
@@ -12,7 +12,7 @@ Products && Categories REST API'S
 
 4. Now the application will be running on port 3200.
 
-==========================================================================================
+
 #Running app through Docker
 ==========================================================================================
 
@@ -24,7 +24,7 @@ Products && Categories REST API'S
 
 4. If the two docker services are up , Now the application is running on port 3200.
 
-==========================================================================================
+
 #Endpoint of Application
 ==========================================================================================
 
@@ -63,8 +63,8 @@ Products && Categories REST API'S
 
 8. "/productsbycat/:id" -- Get API to get products based on categories (id of category).
 
-===========================================================================================
-API's Host for Docker and local
+
+#API's Host for Docker and local
 ===========================================================================================
 
 host = http://localhost:3200
